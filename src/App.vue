@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <navbar></navbar>
     <router-view/>
   </div>
@@ -21,5 +21,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 </style>
